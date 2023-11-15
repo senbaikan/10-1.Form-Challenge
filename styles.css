@@ -1,0 +1,98 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(230, 241, 247);
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+main {
+  /* width: 50%; */
+  width: 40rem;
+  padding: 1rem;
+  margin: auto;
+  background-color: rgb(241, 245, 250);
+  /* border: 0.1rem solid rgb(182, 179, 179); */
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgb(192, 190, 190);
+}
+
+label {
+  color: rgb(64, 63, 63);
+  display: block;
+  margin-bottom: 0.5rem 0;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid rgb(182, 179, 179);
+  /* box-shadow: 1px 1px 1px rgb(192, 190, 190); */
+  font: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgb(181, 181, 232);
+}
+
+#reply-method ul {
+  padding: 0;
+}
+
+.inline-control {
+  display: flex;
+  align-items: center;
+}
+
+.inline-control input {
+  width: auto;
+}
+
+.inline-control label {
+  margin-left: 10px;
+}
+
+#button {
+  text-align: right;
+}
+
+button {
+    font: inherit;
+    border: 1px solid rgb(50, 67, 100);
+    border-radius: 4px;
+    padding: 0.5rem, 1.5rem;
+}
+
+#clear {
+  background-color: transparent;
+  border-color: rgb(139, 135, 135);
+}
+
+#clear:hover {
+  cursor: pointer;
+  background-color: rgb(216, 232, 242);
+}
+
+#submit {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  border-color: rgb(42, 42, 42);
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: rgb(110, 110, 110);
+  border-color: rgb(110, 110, 110);
+}
